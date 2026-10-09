@@ -9,6 +9,8 @@
 ### 1. Jesse Vogel's Grothendieck-ring solver — direct algebraic cut-and-paste
 
 - Repository: https://github.com/jessetvogel/grothendieck-ring
+- Author: **Jesse Vogel**, whose solver repository is explicitly cited in a peer-reviewed paper, [Márton Hablicsek and Jesse Vogel, *Virtual Classes of Representation Varieties of Upper Triangular Matrices via Topological Quantum Field Theories*](https://sigma-journal.com/2022/095/) (*SIGMA* **18** (2022), 095, [arXiv:2008.06679](https://arxiv.org/abs/2008.06679)).
+- Related research: [Jesse Vogel, *On the motivic Higman conjecture*](https://doi.org/10.1016/j.jalgebra.2024.03.024) (*Journal of Algebra* **651** (2024), 19–69) gives explicitly algorithmic motivic-class and E-polynomial calculations, including representation varieties in selected low ranks; [*Motivic invariants of character stacks*](https://jessetvogel.nl/academic/files/theses/PhD_Thesis_Jesse_Vogel.pdf), Vogel's thesis, develops the computational backdrop. Also see [Andreas Gross, Leo Herr, David Holmes, Pim Spelier, Jesse Vogel, *The log Grothendieck ring of varieties*](https://doi.org/10.1112/blms.70204), published 2026, for extensions to log varieties (not claimed implemented by the solver).
 - Code: [solver/grothendieck_solver.py](https://github.com/jessetvogel/grothendieck-ring/blob/master/solver/grothendieck_solver.py), plus notebooks.
 - Language: Python with SymPy, IPython.
 - Observed structure: `System(gens, eqs, op_eqs)` for varieties described by polynomial **equations** and **inequations**; `Solver.compute_grothendieck_class(system)` uses explicit rewrite tactics. The tactics in source include elimination of linear variables, factoring, product decompositions, quadratic hypersurfaces, Gröbner bases and a closed/open split for `f != 0`.
@@ -128,6 +130,6 @@ The honest boundary between software and mathematical theorem would be a typed o
 
 ## Attribution and source licenses
 
-Thanks individually to **Jesse Vogel** (public repository identity `jessetvogel`; fuller public name should be checked before bibliography changes), **Daniel Sánchez Sánchez**, **David Alfaya Sánchez**, **Jaime Pizarroso Gonzalo**, **Dima Smirnov**, **Pieter Belmans**, **Daniel R. Grayson**, and contributors to the `flatsurf`, `SageMath`, `polymake`, and `UniMath` projects. Thanks also to the explicitly named authors of the Fano-scheme calculation above.
+Thanks individually to **Jesse Vogel**, **Daniel Sánchez Sánchez**, **David Alfaya Sánchez**, **Jaime Pizarroso Gonzalo**, **Dima Smirnov**, **Pieter Belmans**, **Daniel R. Grayson**, and contributors to the `flatsurf`, `SageMath`, `polymake`, and `UniMath` projects. Thanks also to the explicitly named authors of the Fano-scheme calculation above.
 
 The cited source repositories retain their own copyright and licenses; the existence of a GitHub repository does not grant a copying license. The purpose here is **research and attribution**, not code redistribution. For more contributors, follow each project's `AUTHORS`, paper bibliography, and official attribution files before copying anything.
