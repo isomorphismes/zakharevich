@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "recorded_on": "2026-10-09",
+  "registration": "pinned-git-submodules",
+  "source_vendored": false,
+  "sources": [
+    {
+      "id": "grothendieck-ring",
+      "path": "reference code/grothendieck-ring",
+      "upstream": "https://github.com/jessetvogel/grothendieck-ring.git",
+      "observed_branch": "master",
+      "commit": "69cbb069723514dcfc17b6b4cdd248657133fd30",
+      "entry_points": ["solver/grothendieck_solver.py"],
+      "authors": ["Jesse Vogel"],
+      "license_review": "Reuse permission not established; upstream reference only."
+    },
+    {
+      "id": "ciamod-motives",
+      "path": "reference code/ciamod-motives",
+      "upstream": "https://github.com/CIAMOD/motives.git",
+      "observed_branch": "master",
+      "commit": "6a4565a870618e677e90d66c1f10f4f67538ccad",
+      "entry_points": ["motives", "tests"],
+      "authors": ["Daniel Sánchez Sánchez", "David Alfaya Sánchez", "Jaime Pizarroso Gonzalo"],
+      "license_path": "LICENSE",
+      "license_blob_sha": "f288702d2fa16d3cdf0035b15a9fcbc552cd88e7",
+      "license_review": "GNU GPL version 3 text present; retain upstream terms and notices."
+    },
+    {
+      "id": "scissors-congruence",
+      "path": "reference code/scissors-congruence",
+      "upstream": "https://github.com/dmsm/scissors-congruence.git",
+      "observed_branch": "gh-pages",
+      "commit": "0cbc5201da2650899a9011ad97ebb409aab64762",
+      "entry_points": ["js/polygons.js", "js/transformations.js"],
+      "authors": ["Dima Smirnov"],
+      "license_review": "Reuse permission not established; upstream reference only. Bundled libraries may have separate terms."
+    },
+    {
+      "id": "unimath",
+      "path": "reference code/unimath",
+      "upstream": "https://github.com/UniMath/UniMath.git",
+      "observed_branch": "master",
+      "commit": "62837f6a3967df2568e2580ab8a6dbc5878d1011",
+      "entry_points": ["UniMath/Ktheory/GrothendieckGroup.v", "UniMath/Ktheory/README.md"],
+      "scope": "Full UniMath repository; reading focus is the Ktheory directory.",
+      "authors": ["Daniel R. Grayson", "UniMath Development Team"],
+      "license_path": "LICENSE.md",
+      "license_blob_sha": "771ea4a58213d73c983eccbb02c6f5f0822ed222",
+      "license_review": "UniMath-specific permissive license; preserve its copyright and license notice."
+    }
+  ]
+}

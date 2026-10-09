@@ -1,0 +1,12 @@
+[submodule "reference-grothendieck-ring"]
+	path = reference code/grothendieck-ring
+	url = https://github.com/jessetvogel/grothendieck-ring.git
+[submodule "reference-ciamod-motives"]
+	path = reference code/ciamod-motives
+	url = https://github.com/CIAMOD/motives.git
+[submodule "reference-scissors-congruence"]
+	path = reference code/scissors-congruence
+	url = https://github.com/dmsm/scissors-congruence.git
+[submodule "reference-unimath"]
+	path = reference code/unimath
+	url = https://github.com/UniMath/UniMath.git
